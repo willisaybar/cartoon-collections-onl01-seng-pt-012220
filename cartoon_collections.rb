@@ -1,7 +1,7 @@
-def roll_call_dwarves(names)
+def roll_call_dwarves(dwarves)
   counter = 7
-  names = []
-  names.each do |name|
+  dwarves = []
+  dwarves.each do |name|
     dwarf_names << name.length
     counter = counter + 1
   end
