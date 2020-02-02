@@ -1,7 +1,7 @@
 def roll_call_dwarves(names)
   counter = 7
   names = []
-  while names.each_with_index 
+  names.each do |name|
     yield(|name| )
     puts names << e
     e = e + 1
