@@ -3,8 +3,7 @@ def roll_call_dwarves(names)
   names = []
   names.each do |name|
     dwarf_names << name.length
-    yield(|name| )
-    puts names << e
+  end
     counter = counter + 1
   end
   names
