@@ -1,8 +1,8 @@
 def roll_call_dwarves(dwarves)
   counter = 7
   dwarves = []
-  dwarves.each do |name|
-    dwarves << name.length
+  dwarves.each_with_index do [name, counter(1)]
+    dwarves << name.select
     counter = counter + 1
   end
   dwarves
