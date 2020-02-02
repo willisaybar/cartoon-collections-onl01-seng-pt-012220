@@ -5,7 +5,7 @@ def roll_call_dwarves(names)
     
     yield(|name| )
     puts names << e
-    e = e + 1
+    counter = counter + 1
   end
   names
 end
