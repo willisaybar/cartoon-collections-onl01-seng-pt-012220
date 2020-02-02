@@ -1,11 +1,9 @@
-def roll_call_dwarves(dwarves)
-  counter = 7
-  dwarves = []
-  dwarves.each_with_index do [name, counter(1)]
-    dwarves << name.select
-    counter = counter + 1
-  end
-  dwarves
+def roll_call_dwarves(array)
+  i = 0 
+  while i < array.length 
+    puts "#{i + 1}. #{array[i]}"
+    i += 1 
+  end 
 end
 
 names = ["Doc", "Dopey", "Bashful", "Grumpy"]
