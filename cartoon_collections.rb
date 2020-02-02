@@ -1,7 +1,9 @@
 def roll_call_dwarves(names)
+  e = 4
   names = []
   names.each_with_index do |e|
     puts names << e
+    e = e + 1
   end
   names
 end
